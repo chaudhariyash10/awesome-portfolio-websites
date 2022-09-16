@@ -5,6 +5,41 @@ AOS.init();
 const techStackCards = document.querySelector(".techstack-box");
 const techStack = [
   {
+    langImage: "assets/images/techstack-page/react.png",
+    langName: "React",
+    langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/cpp.png",
+    langName: "C++",
+    langDesc: "<li>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes</li>",
+  },
+  {
+    langImage: "assets/images/techstack-page/javascript.png",
+    langName: "JavaScript",
+    langDesc: "<li>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS</li>",
+  },
+  {
+    langImage:"assets/images/techstack-page/problemsolving.png",
+    langName:"Problem Solving",
+    langDesc:"<li>Problem Solving is most important skill for any job role</li>"
+  },
+  {
+    langImage:"assets/images/techstack-page/os.jfif",
+    langName:"Operating System",
+    langDesc:"<li>Knowledge of underlying mechanisms of commons os</li>"
+  },
+  {
+    langImage:"assets/images/techstack-page/dbms.png",
+    langName:"Database Management Systems",
+    langDesc:"<li>Storing and accessing large amount of data efficiently is not so easy task.</li>"
+  },
+  {
+    langImage:"assets/images/techstack-page/c.png",
+    langName:"C",
+    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
+  },
+  {
     langImage: "assets/images/techstack-page/html.png",
     langName: "HyperText Markup Language",
     langDesc: "<li>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser</li>",
@@ -13,11 +48,6 @@ const techStack = [
     langImage: "assets/images/techstack-page/css.png",
     langName: "Cascading Style Sheets",
     langDesc: "<li>Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language such as HTML</li>",
-  },
-  {
-    langImage: "assets/images/techstack-page/javascript.png",
-    langName: "JavaScript",
-    langDesc: "<li>JavaScript, often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS</li>",
   },
   {
     langImage: "assets/images/techstack-page/node.png",
@@ -30,29 +60,19 @@ const techStack = [
     langDesc: "<li>Python is an interpreted high-level general-purpose programming language</li>",
   },
   {
-    langImage: "assets/images/techstack-page/cpp.png",
-    langName: "C++",
-    langDesc: "<li>C++ is a general-purpose programming language created by Bjarne Stroustrup as an extension of the C programming language, or C with Classes</li>",
-  },
-  {
     langImage: "assets/images/techstack-page/git.png",
     langName: "Git",
     langDesc: "<li>Git is software for tracking changes in any set of files, usually used for coordinating work among programmers collaboratively developing source code during software development.</li>",
   },
   {
-    langImage: "assets/images/techstack-page/bootstrap.png",
-    langName: "Bootstrap",
-    langDesc: "<li>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development</li>",
+    langImage: "assets/images/techstack-page/redux.png",
+    langName: "Redux",
+    langDesc: "<li>State management library for react</li>",
   },
   {
-    langImage: "assets/images/techstack-page/react.png",
-    langName: "React",
-    langDesc: "<li>React is a free and open-source front-end JavaScript library for building user interfaces based on UI components</li>",
-  },
-  {
-    langImage:"assets/images/techstack-page/c.png",
-    langName:"C",
-    langDesc:"<li>C is a general-purpose, procedural computer programming language supporting structured programming, lexical variable scope, and recursion, with a static type system</li>"
+    langImage: "assets/images/techstack-page/mongodb.png",
+    langName: "MongoDB",
+    langDesc: "<li>Most popular No sql database</li>",
   },
 ];
 

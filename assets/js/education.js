@@ -5,66 +5,44 @@ AOS.init();
 const moocs = document.querySelector(".moocs");
 const moocscards = [
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/browse/data-science",
+    title: "Complete Intro to React-Frontend Masters",
+    cardImage: "assets/images/education-page/react-logo.svg",
+    moocLink: "https://frontendmasters.com/courses/complete-react-v5/",
   },
   {
-    title: "Cryptography",
+    title: "JavaScript: The hard parts - Frontend Masters",
+    cardImage: "assets/images/education-page/jshardparts.jfif",
+    moocLink: "https://frontendmasters.com/courses/javascript-hard-parts-v2/",
+  },
+  {
+    title: "Introduction to Node - Frontend Masters",
+    cardImage: "assets/images/education-page/introtonode.jfif",
+    moocLink: "https://frontendmasters.com/courses/node-js-v2/",
+  },
+  {
+    title: "Deep Javascript Foundations",
+    cardImage: "assets/images/education-page/deepjsfound.jfif",
+    moocLink: "https://frontendmasters.com/courses/deep-javascript-v3/",
+  },
+  {
+    title: "Responsive web design certification - Freecodecamp",
+    cardImage: "assets/images/education-page/freecodecamp.png",
+    moocLink: "https://www.freecodecamp.org/fccf690d995-58be-4806-8b5f-11c22ae4f39a",
+  },
+  {
+    title: "Blockchain Theory 101",
     cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+    moocLink: "https://www.udemy.com/course/blockchain-theory-101/",
   },
   {
-    title: "Machine Learning",
+    title: "Blockchain: Foundations and Usecases",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
+    moocLink: "https://www.coursera.org/learn/blockchain-foundations-and-use-cases",
   },
   {
-    title: "Introduction to HTML 5",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
-  },
-  {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
-  },
-  {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
-  },
-  {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/edx.svg",
-    moocLink: "https://www.edx.org/learn/reactjs",
-  },
-  {
-    title: "Intro to React Native",
+    title: "Programming for everybody(Getting started with python)",
     cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink:
-      "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera2.svg",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.svg",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity.svg",
-    moocLink:
-      "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+    moocLink: "https://www.coursera.org/learn/python",
   },
 ];
 

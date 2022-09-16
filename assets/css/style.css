@@ -1092,3 +1092,16 @@ outline: none;
     transform: scale(0) rotateZ(-90deg);
   }
 }
+
+.download-resume {
+  text-decoration: none;
+
+  width: 300px;
+  /* height: 60px; */
+  border-radius: 21px;
+  background-color: rgb(34, 94, 159);
+  color: whitesmoke;
+  padding: 15px 32px;
+
+  z-index: 10;
+}
