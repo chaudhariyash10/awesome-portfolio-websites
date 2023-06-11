@@ -4,11 +4,18 @@ AOS.init();
 
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
+    {
+    title: "Software Engineer Intern",
+    cardImage: "assets/images/experience-page/attentioun.svg",
+    place: "Veritas",
+    time: "(Jan 2022 - present)",
+    desp: "<li>Got hands on experience in Linux, RHEL, automations </li> <li>Worked in fast paced agile framework</li>"
+  },
   {
     title: "Web Development Intern",
     cardImage: "assets/images/experience-page/attentioun.svg",
     place: "Attentioun",
-    time: "(April, 2022 - present)",
+    time: "(April, 2022 - November, 2022)",
     desp: "<li>Worked on developing pixel perfect UIs using Figma </li> <li>Integrated lots of apis to complete the workflow of all reader side components</li> <li>Developed an algorithm to extract paragraph lines that contain entire user selection (critical for analytics part of project)</li><li>Learned various technologies around react like react-table, redux, redux-saga</li>",
   },
   {
