@@ -6,7 +6,7 @@ const experiencecards = document.querySelector(".experience-cards");
 const exp = [
     {
     title: "Software Engineer Intern",
-    cardImage: "assets/images/experience-page/attentioun.svg",
+    cardImage: "assets/images/experience-page/Veritas_Technologies-Logo.wine.png.svg",
     place: "Veritas",
     time: "(Jan 2022 - present)",
     desp: "<li>Got hands on experience in Linux, RHEL, automations </li> <li>Worked in fast paced agile framework</li>"
